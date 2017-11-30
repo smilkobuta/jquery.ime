@@ -6,7 +6,7 @@ Detect IME events and trigger custom events (ime.typing / ime.finish / ime.direc
       
     (function($){  
         $(function(){  
-            $zipcode.ime().on('ime.finish ime.direct', function(){  
+            $('.imecheck').ime().on('ime.finish ime.direct', function(){  
                 // 文字入力確定！  
             });  
         });  
